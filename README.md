@@ -38,8 +38,8 @@ _THIS ~~IS~~ A **GOOD** JOB!_
 - one
 - two
 - three
-  * 3.1
-  * 3.2
+* 3.1
+* 3.2
   
 1. one
 1. two
