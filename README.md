@@ -17,3 +17,7 @@ _THIS ~~IS~~ A **GOOD** JOB!_
 1. one
 1. two
 1. three
+3. Open a pull request
+  * Describe my changes
+  * Mention all the members of my team
+    * Ask for feedback
