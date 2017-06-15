@@ -48,6 +48,10 @@ _THIS ~~IS~~ A **GOOD** JOB!_
   * Describe my changes
   * Mention all the members of my team
     * Ask for feedback
+  * D309
+    * yanglei
+    * honglyan
+    * zhangaidi
     
 ## 任务列表
 - [x] orange
@@ -59,7 +63,8 @@ _THIS ~~IS~~ A **GOOD** JOB!_
 >> 我喜欢安静且热闹的俗世的光阴，可以听一朵花悄悄开放的声音，
 
 ## 图片
-image
+image of snow
+
 ![image of 83e953190774fd8808990&690](http://s1.sinaimg.cn/middle/83e953190774fd8808990&690)
 
 ## 引用代码
