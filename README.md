@@ -21,7 +21,7 @@ John Gruber 在 2004 年创造了 Markdown 语言，在语法上有很大一部�
 ###### 六级标题
 
 ## 列表
-###无序列表
+### 无序列表
 *THIS IS A GOOD JOB!*  
 
 _THIS IS A GOOD JOB!_  
@@ -34,11 +34,13 @@ _THIS IS A GOOD JOB!_
 
 _THIS ~~IS~~ A **GOOD** JOB!_  
 
-###有序列表
+### 有序列表
 - one
 - two
 - three
-* four
+  * 3.1
+  * 3.2
+  
 1. one
 1. two
 1. three
