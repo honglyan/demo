@@ -75,3 +75,8 @@ printf("hello world!");
 return 0;
 }
 ```
+
+## 表格
+学号 | 姓名 | 班级 
+-----|-----|-----|
+01  |weikai|iban|
