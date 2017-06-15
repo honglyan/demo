@@ -30,3 +30,10 @@ _THIS ~~IS~~ A **GOOD** JOB!_
 
 image
 ![image of 83e953190774fd8808990&690](http://s1.sinaimg.cn/middle/83e953190774fd8808990&690)
+```c
+#include <stdio.h>
+int main(void){
+printf("hello world!");
+return 0;
+}
+```
