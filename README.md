@@ -21,3 +21,6 @@ _THIS ~~IS~~ A **GOOD** JOB!_
   * Describe my changes
   * Mention all the members of my team
     * Ask for feedback
+- [x] orange
+- [ ] apple
+- [ ] banana
