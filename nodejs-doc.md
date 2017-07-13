@@ -1,1 +1,1 @@
-![node.js](https://www.zhihu.com/question/19793473)
+[node.js](https://www.zhihu.com/question/19793473)
