@@ -15,7 +15,8 @@
      });
    </script>
 ```
-## 数据双向绑定
+## 数据双向绑定v-model
+###### 一般使用在表单数据当中，比如input和select。
 在以上的基础上进行数据双向绑定,代码如下：
 ```html
 <div id="app">
@@ -39,5 +40,6 @@
 ```html
 <pre>{{ $data | json }}</pre>
 ```
-这是将data装华为json显示出来。
+这是将data转化为json显示出来。
+
 
