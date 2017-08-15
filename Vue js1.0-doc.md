@@ -108,7 +108,7 @@
        <button type="submit" > Submit</button>
      </form>
 ```
-### 实例：按钮，没按一下增加一次
+### 实例：按钮，每按一下增加一次
 在这里我么来写一个button，点击一下就会+1
 ```html
 <div id="app">
@@ -132,8 +132,37 @@
 ```
 为了减少代码量，如此简单的函数完全没有必要写一个函数来实现，所以可以如下：
 ```html
-<button type="submit" @click="count += 1 "> Submit{{ count }}</button
+<button type="submit" @click="count += 1 "> Submit{{ count }}</button>
 ```
+## 初探Vuejs组件化开发（为了实现代码的重用）
+### 实例：两个按钮，实现点击第一个第一个按钮的数字会增加，点击第二个按钮第二个按钮的数字会增加，类似微博的点赞和不赞同的按钮
+```html
+<div id="app">
+       <counter heading="likes" color="green"></counter>
+       <counter heading="dislikes" color="red"></counter>
+   </div>
+   <template id="counter-template">
+     <h1>{{ heading }}</h1>
+     <button @click="count += 1 " style="background:{{ color }}">like {{ count }}</button>
+
+   </template>
+
+   <script src="https://cdn.bootcss.com/vue/1.0.27/vue.min.js"></script>
+   <script>
+     Vue.component('counter',{
+       template:'#counter-template', // counter里面的内容
+       props:['heading','color'], //绑定参数
+       data : function(){
+         return {count: 0};
+       }
+     });
+     new Vue({
+       el: '#app'
+     });
+   </script>
+
+```
+
 
 
 
