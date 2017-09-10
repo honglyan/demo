@@ -72,7 +72,7 @@
        </div>
 ```
 区别：v-show是不需要的时候隐藏该div，display为none，但是使用v-if的话是在整个dom里面都没有这个div。
-
+v-if和v-show后面填写简单的判断语句。
 ## 事件系统  v-on
 ###### 类似jquery中click之类的事件,method中存放需要执行的函数逻辑。
 ```html
@@ -163,6 +163,114 @@
 
 ```
 
+## vue.js中两个小小的彩蛋 //不适用min.js
+### 1.在服务器中在查看元素的时候Vue Devtools可以查看内容
 
 
+## 集成过后的属性 computed
+1.显示一个人的等级
+```html
+<div id="app">
+       level {{ level }}
+   </div>
+     <script>
+    new Vue({
+      el: '#app',
+      data:{
+        points : 200 ,
+      },
+      computed:{
+        level:function(){
+          if(this.points <= 100){
+            return '普通会员';
+          }
+          return 'VIP会员';
+        }
+      }
 
+    });
+  </script>
+  ```
+  
+  2.实时更新来显示姓名 
+   ```html
+  <div id="app">
+       {{ username }}
+       <input type="text" v-model="first">
+      <input type="text" v-model="last">
+   </div>
+     <script>
+    new Vue({
+      el: '#app',
+      data:{
+        first : 'hong' ,
+        last : 'lyan'
+      },
+      computed:{
+        username:function(){
+          return this.first+this.last;
+        }
+      }
+
+    });
+  </script>
+  ```
+  
+  ## 循环输出某些东西 render a list  
+  ### 例：循环输出一个列表  
+  ```html
+ <div id="app">
+     <ul>
+       <li v-for="task in tasks" :class="task.completed?'completed':''"> {{ task.body }}</li>
+     </ul>
+   new Vue({
+      el: '#app',
+      data:{
+        tasks : [
+          {body:'go to movies',completed:false},
+          {body:'learn vue.js',completed:true},
+          {body:'go to shop',completed:false}
+        ]
+      }
+    });
+```  
+PS: 添加多个class可以用以下方法：  
+```html
+<li v-for="task in tasks" :class="completed"> </li>
+<script>
+    new Vue({
+      el: '#app',
+      data:{
+        completed : ['completed','turely']
+    });
+  </script>
+```
+
+### 2.点击切换事件状态
+```html
+<div id="app">
+     <ul>
+       <li v-for="task in tasks" :class="{'completed':task.completed}" @click="toggleTask(task)"> {{ task.body }}</li>
+     </ul>
+   </div>
+  <!--<script src="vue.min.js"></script> -->
+  <script src="https://cdn.bootcss.com/vue/2.4.2/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data:{
+        tasks : [
+          {body:'go to movies',completed:false},
+          {body:'learn vue.js',completed:true},
+          {body:'go to shop',completed:false}
+        ]
+      },
+      methods :{
+        toggleTask : function(task){
+          task.completed = ! task.completed;
+        }
+      }
+
+    });
+  </script>
+```
