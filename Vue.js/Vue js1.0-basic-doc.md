@@ -1,21 +1,22 @@
 # Vue 基础视频教程（1.0版本）
 
 ## 课程任务：
-- [x]
-[x]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
+- [x] [1.Vuejs的数据双向绑定]()
+- [x] 2.简单好用的v-show 
+- [x] 3.Vuejs的事件处理 
+- [x] 4.初探Vuejs组件化开发
+- [x] 5.Vuejs开发的两个彩蛋
+- [x] 6.computed的应用场景
+- [x] 7.Vuejs处理列表数据
+- [ ] 8.Vuejs组件化开发todo应用
+- [ ] 9.添加任务总数和删除任务
+- [ ] 10.结合Jquery 实现 Vuejs Ajax
+- [ ] 11.Vue resource 插件使用 
+- [ ] 12.Vue resource 插件稍微深入
 
-## 入门：显示一个Hello World !
+## 内容：
+### 1.Vuejs的数据双向绑定
+####  入门：显示一个Hello World !
 ```html
    <div id="app">
      <h1>{{ message }}</h1>
