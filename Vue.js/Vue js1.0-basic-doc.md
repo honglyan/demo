@@ -290,7 +290,48 @@ PS: 添加多个class可以用以下方法：
     });
   </script>
 ```
-### 8.Vuejs组件化开发todo应用
+### 8.Vuejs组件化开发todo应用  
+#### 采用组件化的模式显示列表
+1. vue绑定div，并且其中data中放着list
+2. 一个组件task-app,其组件化的内容在id为task-template的template中
+3. component绑定组件化的内容，并且设置props，涉及的函数也放在其中。
+```html
+  <div id="app">
+    <task-app :list="tasks">
+
+    </task-app>
+
+  </div>
+  <template id="task-template">
+    <ul>
+      <li v-for="task in list" :class="{'completed':task.completed}" @click="toggleTask(task)"> {{ task.body }}</li>
+    </ul>
+  </template>
+  <!--<script src="vue.min.js"></script> -->
+  <script src="https://cdn.bootcss.com/vue/2.4.2/vue.js"></script>
+  <script>
+  Vue.component('task-app',{
+    template : '#task-template',
+    props:['list'],
+    methods :{
+      toggleTask : function(task){
+        task.completed = ! task.completed;
+      }
+    }
+  });
+    new Vue({
+      el: '#app',
+      data:{
+        tasks : [
+          {body:'go to movies',completed:false},
+          {body:'learn vue.js',completed:true},
+          {body:'go to shop',completed:false}
+        ]
+      }
+
+    });
+  </script>
+```
 ### 9.添加任务总数和删除任务
 ### 10.结合Jquery 实现 Vuejs Ajax
 ### 11.Vue resource 插件使用 
