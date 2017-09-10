@@ -1,7 +1,7 @@
 # Vue 基础视频教程（1.0版本）
 
 ## 课程任务：
-- [x] [1.Vuejs的数据双向绑定]()
+- [x] [1.Vuejs的数据双向绑定](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#1vuejs的数据双向绑定)
 - [x] 2.简单好用的v-show 
 - [x] 3.Vuejs的事件处理 
 - [x] 4.初探Vuejs组件化开发
