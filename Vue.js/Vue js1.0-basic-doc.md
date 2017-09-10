@@ -332,7 +332,56 @@ PS: 添加多个class可以用以下方法：
     });
   </script>
 ```
-### 9.添加任务总数和删除任务
+### 9.添加任务总数和删除任务 
+##### 注意： this.list.$remove只适合在vue.js1.0里面使用，在2.0里面不适用。
+```html
+<div id="app">
+    <task-app :list="tasks"></task-app>
+  </div>
+  <template id="task-template">
+    <div>
+      <h1>my tasks <span v-show="remaining">({{ remaining }})</span></h1>
+      <ul>
+        <li v-for="task in list" :class="{'completed':task.completed}" @click="toggleTask(task)">
+          {{ task.body }}  <strong @click="deltask(task)">X</strong>
+        </li>
+      </ul>
+    </div>
+  </template>
+  <!--<script src="vue.min.js"></script> -->
+  <script src="https://cdn.bootcss.com/vue/1.0.7/vue.min.js"></script>
+  <script>
+  Vue.component('task-app',{
+    template : '#task-template',
+    props:['list'],
+    methods :{
+      toggleTask : function(task){
+        task.completed = ! task.completed;
+      },
+      deltask : function(task){
+        this.list.$remove(task);
+      }
+    },
+    computed:{
+      remaining:function(){
+        return this.list.filter(function(task){
+          return ! task.completed;
+        }).length;
+      }
+    }
+  });
+    new Vue({
+      el: '#app',
+      data:{
+        tasks : [
+          {body:'go to movies',completed:false},
+          {body:'learn vue.js',completed:true},
+          {body:'go to shop',completed:false}
+        ]
+      }
+    });
+  </script>
+```
 ### 10.结合Jquery 实现 Vuejs Ajax
 ### 11.Vue resource 插件使用 
 ### 12.Vue resource 插件稍微深入
