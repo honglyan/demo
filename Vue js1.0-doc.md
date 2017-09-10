@@ -214,10 +214,11 @@ v-if和v-show后面填写简单的判断语句。
 
     });
   </script>
-  ```
+  ```  
   
-  ## 循环输出某些东西 render a list  
-  ### 例：循环输出一个列表  
+  ## 循环输出某些东西 render a list 
+  ### 循环输出一个列表  
+  
   ```html
  <div id="app">
      <ul>
@@ -233,8 +234,8 @@ v-if和v-show后面填写简单的判断语句。
         ]
       }
     });
-```  
-PS: 添加多个class可以用以下方法：  
+```
+PS: 添加多个class可以用以下方法：
 ```html
 <li v-for="task in tasks" :class="completed"> </li>
 <script>
