@@ -16,7 +16,7 @@
 
 ## 内容：
 ### 1.Vuejs的数据双向绑定
-####  入门：显示一个Hello World !
+#####  入门：显示一个Hello World !
 ```html
    <div id="app">
      <h1>{{ message }}</h1>
@@ -31,7 +31,7 @@
      });
    </script>
 ```
-## 数据双向绑定v-model
+### 2.数据双向绑定v-model
 ###### 一般使用在表单数据当中，比如input和select。
 在以上的基础上进行数据双向绑定,代码如下：
 ```html
@@ -58,7 +58,7 @@
 ```
 这是将data转化为json显示出来。
 
-## 简单好用的v-show 
+### 3.简单好用的v-show 
 ```html
 <div id="app">
      <form action="">
@@ -89,7 +89,8 @@
 ```
 区别：v-show是不需要的时候隐藏该div，display为none，但是使用v-if的话是在整个dom里面都没有这个div。
 v-if和v-show后面填写简单的判断语句。
-## 事件系统  v-on
+
+### 4.初探Vuejs组件化开发(v-on)
 ###### 类似jquery中click之类的事件,method中存放需要执行的函数逻辑。
 ```html
 <div id="app">
@@ -124,7 +125,7 @@ v-if和v-show后面填写简单的判断语句。
        <button type="submit" > Submit</button>
      </form>
 ```
-### 实例：按钮，每按一下增加一次
+#### 实例：按钮，每按一下增加一次
 在这里我么来写一个button，点击一下就会+1
 ```html
 <div id="app">
@@ -150,8 +151,8 @@ v-if和v-show后面填写简单的判断语句。
 ```html
 <button type="submit" @click="count += 1 "> Submit{{ count }}</button>
 ```
-## 初探Vuejs组件化开发（为了实现代码的重用）
-### 实例：两个按钮，实现点击第一个第一个按钮的数字会增加，点击第二个按钮第二个按钮的数字会增加，类似微博的点赞和不赞同的按钮
+
+#### 实例：两个按钮，实现点击第一个第一个按钮的数字会增加，点击第二个按钮第二个按钮的数字会增加，类似微博的点赞和不赞同的按钮
 ```html
 <div id="app">
        <counter heading="likes" color="green"></counter>
@@ -179,12 +180,12 @@ v-if和v-show后面填写简单的判断语句。
 
 ```
 
-## vue.js中两个小小的彩蛋 //不适用min.js
-### 1.在服务器中在查看元素的时候Vue Devtools可以查看内容
+### 5.vue.js中两个小小的彩蛋 //不适用min.js
+#### 1.在服务器中在查看元素的时候Vue Devtools可以查看内容
 
 
-## 集成过后的属性 computed
-1.显示一个人的等级
+### 6.computed的应用场景
+#### 实例1.显示一个人的等级
 ```html
 <div id="app">
        level {{ level }}
@@ -208,7 +209,7 @@ v-if和v-show后面填写简单的判断语句。
   </script>
   ```
   
-  2.实时更新来显示姓名 
+  #### 实例2.实时更新来显示姓名 
    ```html
   <div id="app">
        {{ username }}
@@ -232,8 +233,8 @@ v-if和v-show后面填写简单的判断语句。
   </script>
   ```  
   
-  ## 循环输出某些东西 render a list 
-  ### 循环输出一个列表  
+  ### Vuejs处理列表数据
+  #### 实例1：循环输出一个列表  
   
   ```html
  <div id="app">
@@ -263,7 +264,7 @@ PS: 添加多个class可以用以下方法：
   </script>
 ```
 
-### 2.点击切换事件状态
+### 实例2.点击切换事件状态
 ```html
 <div id="app">
      <ul>
