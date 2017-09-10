@@ -125,7 +125,7 @@ v-if和v-show后面填写简单的判断语句。
        <button type="submit" > Submit</button>
      </form>
 ```
-#### 实例：按钮，每按一下增加一次
+#### 实例1：按钮，每按一下增加一次
 在这里我么来写一个button，点击一下就会+1
 ```html
 <div id="app">
@@ -152,7 +152,7 @@ v-if和v-show后面填写简单的判断语句。
 <button type="submit" @click="count += 1 "> Submit{{ count }}</button>
 ```
 
-#### 实例：两个按钮，实现点击第一个第一个按钮的数字会增加，点击第二个按钮第二个按钮的数字会增加，类似微博的点赞和不赞同的按钮
+#### 实例2：两个按钮，实现点击第一个第一个按钮的数字会增加，点击第二个按钮第二个按钮的数字会增加，类似微博的点赞和不赞同的按钮
 ```html
 <div id="app">
        <counter heading="likes" color="green"></counter>
@@ -183,14 +183,13 @@ v-if和v-show后面填写简单的判断语句。
 ### 5.vue.js中两个小小的彩蛋 //不适用min.js
 #### 1.在服务器中在查看元素的时候Vue Devtools可以查看内容
 
-
 ### 6.computed的应用场景
 #### 实例1.显示一个人的等级
 ```html
 <div id="app">
        level {{ level }}
-   </div>
-     <script>
+ </div>
+ <script>
     new Vue({
       el: '#app',
       data:{
@@ -206,11 +205,10 @@ v-if和v-show后面填写简单的判断语句。
       }
 
     });
-  </script>
 ```
-  #### 实例2.实时更新来显示姓名 
-   ```html
-  <div id="app">
+#### 实例2.实时更新来显示姓名 
+```html
+<div id="app">
        {{ username }}
        <input type="text" v-model="first">
       <input type="text" v-model="last">
@@ -230,16 +228,15 @@ v-if和v-show后面填写简单的判断语句。
 
     });
   </script>
-  ```  
-  
-  ### 7.Vuejs处理列表数据
-  #### 实例1：循环输出一个列表  
-  
-  ```html
- <div id="app">
+```
+### 7.Vuejs处理列表数据
+#### 实例1：循环输出一个列表  
+```html
+<div id="app">
      <ul>
        <li v-for="task in tasks" :class="task.completed?'completed':''"> {{ task.body }}</li>
      </ul>
+   <script>
    new Vue({
       el: '#app',
       data:{
@@ -250,7 +247,9 @@ v-if和v-show后面填写简单的判断语句。
         ]
       }
     });
+   </script>
 ```
+  
 PS: 添加多个class可以用以下方法：
 ```html
 <li v-for="task in tasks" :class="completed"> </li>
