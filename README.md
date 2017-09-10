@@ -8,9 +8,9 @@
 - [ ] vue.js实战项目
 
 ## 学习笔记
-1.Vue.js
+1. Vue.js
    *  [vue基础视频教程1](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md)
    *  vue基础视频教程2
    *  vue从入门到实战开发
-   *  vue.js实战项目
-2.[MarkDown笔记]()
+   *  vue.js实战项目  
+2. [MarkDown笔记](https://github.com/honglyan/demo/blob/master/markdown.md)
