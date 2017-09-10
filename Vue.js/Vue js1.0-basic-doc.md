@@ -290,3 +290,9 @@ PS: 添加多个class可以用以下方法：
     });
   </script>
 ```
+### 8.Vuejs组件化开发todo应用
+### 9.添加任务总数和删除任务
+### 10.结合Jquery 实现 Vuejs Ajax
+### 11.Vue resource 插件使用 
+### 12.Vue resource 插件稍微深入
+
