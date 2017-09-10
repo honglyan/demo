@@ -2,12 +2,12 @@
 
 ## 课程任务：
 - [x] [1.Vuejs的数据双向绑定](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#1vuejs的数据双向绑定)
-- [x] 2.简单好用的v-show 
-- [x] 3.Vuejs的事件处理 
-- [x] 4.初探Vuejs组件化开发
-- [x] 5.Vuejs开发的两个彩蛋
-- [x] 6.computed的应用场景
-- [x] 7.Vuejs处理列表数据
+- [x] [2.简单好用的v-show](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#2数据双向绑定v-model) 
+- [x] [3.Vuejs的事件处理](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#3简单好用的v-show)
+- [x] [4.初探Vuejs组件化开发](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#4初探vuejs组件化开发v-on)
+- [x] [5.Vuejs开发的两个彩蛋](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#5vuejs中两个小小的彩蛋-不适用minjs)
+- [x] [6.computed的应用场景](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#6computed的应用场景)
+- [x] [7.Vuejs处理列表数据](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#7vuejs处理列表数据)
 - [ ] 8.Vuejs组件化开发todo应用
 - [ ] 9.添加任务总数和删除任务
 - [ ] 10.结合Jquery 实现 Vuejs Ajax
@@ -295,4 +295,3 @@ PS: 添加多个class可以用以下方法：
 ### 10.结合Jquery 实现 Vuejs Ajax
 ### 11.Vue resource 插件使用 
 ### 12.Vue resource 插件稍微深入
-
