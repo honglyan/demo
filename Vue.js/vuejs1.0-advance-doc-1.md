@@ -6,9 +6,9 @@
 
 
 ## 课程任务
-- [ ] 1.Vue.js简介
-- [ ] 2.
-- [ ] 3.
+- [x] 1.Vue.js简介
+- [x] 2.Vue概述
+- [ ] 3.组件系统
 - [ ] 4.
 - [ ] 5.
 - [ ] 6.
@@ -25,7 +25,20 @@
    * 独立版本  
    * CDN  
    * NPM(npm install vue)
-* Vue.js的使用
-  [简单的实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter1)
+* Vue.js的使用  
+[简单的实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter1)  
+
+### Vue概述  
+* Vue.js的概述  
+   * Vue.js自身不是一个全能框架-它只聚焦于视图层。  
+   * 在与相关工具和支持库一起使用时，也能完美地驱动复杂的单页应用。  
+* 一个切换文字颜色的小实例  
+[一个切换文字颜色的小实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter2)
+
+
+### 组件系统
+
+
+  
   
   
