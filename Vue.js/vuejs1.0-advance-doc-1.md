@@ -22,9 +22,10 @@
    * Vue.js的目标是通过简单的API实现响应的数据绑定和组合的视图组件.  
    * Vue.js的核心是响应的数据绑定系统，他让数据和DOM保持同步非常简单。
 * Vue.js的安装（三种）
-   * 独立版本
-   * CDN
+   * 独立版本  
+   * CDN  
    * NPM(npm install vue)
 * Vue.js的使用
+  [简单的实例](ttps://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter1)
   
   
