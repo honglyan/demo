@@ -21,8 +21,8 @@
    * Vue.js是一个构建数据驱动的web界面的库。技术上，他重点集中在MVVM模式的ViewModel层，易与其他库和项目进行绑定。  
    * Vue.js的目标是通过简单的API实现响应的数据绑定和组合的视图组件.  
    * Vue.js的核心是响应的数据绑定系统，他让数据和DOM保持同步非常简单。
-* Vue.js的安装（三种）
-   * 独立版本  
+* Vue.js的安装（三种）  
+   * 独立版本   
    * CDN  
    * NPM(npm install vue)
 * Vue.js的使用  
