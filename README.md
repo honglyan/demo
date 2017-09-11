@@ -3,7 +3,7 @@
 - [ ] [vue基础视频教程（1.0版本）（10-12）](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md)
 - [ ] [某学院Vue.js课程（1-8）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md)
 - [ ] [某学院Vue.js课程（9-16）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md)
-- [ ] [某学院Vue.js课程（17-24）]https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md)
+- [ ] [某学院Vue.js课程（17-24）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md)
 ## 本月学习任务
 - [ ] vue基础视频教程（1.0版本）
 - [ ] 某学院Vue.js课程（1.0版本）
