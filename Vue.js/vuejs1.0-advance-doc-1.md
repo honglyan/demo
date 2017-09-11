@@ -7,8 +7,8 @@
 
 ## 课程任务
 - [x] [1.Vue.js简介](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vuejs简介)
-- [x] 2.[Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
-- [ ] 3.组件系统
+- [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
+- [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
 - [ ] 4.
 - [ ] 5.
 - [ ] 6.
