@@ -26,6 +26,6 @@
    * CDN  
    * NPM(npm install vue)
 * Vue.js的使用
-  [简单的实例](ttps://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter1)
+  [简单的实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter1)
   
   
