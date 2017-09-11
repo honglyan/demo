@@ -10,7 +10,7 @@
 - [x] [7.Vuejs处理列表数据](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#7vuejs处理列表数据)
 - [x] [8.Vuejs组件化开发todo应用](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#8vuejs组件化开发todo应用)
 - [x] [9.添加任务总数和删除任务](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#9添加任务总数和删除任务)
-- [ ] [10.结合Jquery 实现 Vuejs Ajax](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#10结合jquery-实现-vuejs-ajax)
+- [ ] [10.结合Jquery 实现 Vuejs Ajax](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#10结合jquery-实现-vuejs-ajax) --- 难以学习，综合性高
 - [ ] [11.Vue resource 插件使用 ](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#11vue-resource-插件使用)
 - [ ] [12.Vue resource 插件稍微深入](https://github.com/honglyan/demo/blob/master/Vue.js/Vue%20js1.0-basic-doc.md#12vue-resource-插件稍微深入)
 
