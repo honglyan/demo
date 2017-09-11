@@ -6,8 +6,8 @@
 
 
 ## 课程任务
-- [x] 1.Vue.js简介
-- [x] 2.Vue概述
+- [x] [1.Vue.js简介](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vuejs简介)
+- [x] 2.[Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [ ] 3.组件系统
 - [ ] 4.
 - [ ] 5.
@@ -32,12 +32,12 @@
 * Vue.js的概述  
    * Vue.js自身不是一个全能框架-它只聚焦于视图层。  
    * 在与相关工具和支持库一起使用时，也能完美地驱动复杂的单页应用。  
-* 一个切换文字颜色的小实例  
-[一个切换文字颜色的小实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter2)
+* [一个切换文字颜色的小实例](https://github.com/honglyan/demo/tree/master/Vue.js/Vue.js1.0%20advance/chapter2)  
 
-
-
-### 组件系统
+### 组件系统  
+* 让我们用独立可复用的小组件来构建大型应用。  
+* 组件树 
+* 两大模块：组件系统和响应的数据绑定。
 
 
   
