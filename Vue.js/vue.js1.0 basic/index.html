@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    .completed{
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <task-app :list="tasks"></task-app>
+  </div>
+  <template id="task-template">
+    <div>
+      <h1>my tasks <span v-show="remaining">({{ remaining }})</span></h1>
+      <ul>
+        <li v-for="task in list" :class="{'completed':task.completed}" @click="toggleTask(task)">
+          {{ task.body }}  <strong @click="deltask(task)">X</strong>
+        </li>
+      </ul>
+    </div>
+  </template>
+  <!--<script src="vue.min.js"></script> -->
+  <script src="https://cdn.bootcss.com/vue/1.0.7/vue.min.js"></script>
+  <script>
+  Vue.config.devtools = true;
+  Vue.component('task-app',{
+    template : '#task-template',
+    props:['list'],
+    methods :{
+      toggleTask : function(task){
+        task.completed = ! task.completed;
+      },
+      deltask : function(task){
+        this.list.$remove(task);
+      }
+    },
+    computed:{
+      remaining:function(){
+        return this.list.filter(function(task){
+          return ! task.completed;
+        }).length;
+      }
+    }
+  });
+    new Vue({
+      el: '#app',
+      data:{
+        tasks : [
+          {body:'go to movies',completed:false},
+          {body:'learn vue.js',completed:true},
+          {body:'go to shop',completed:false}
+        ]
+      }
+    });
+  </script>
+</body>
+</html>
