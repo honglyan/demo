@@ -10,9 +10,9 @@
 - [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
 - [ ] 4.Vue.js的实例
-- [ ] 5.Vue数据绑定-文本插入-1
-- [ ] 6.Vue数据绑定-文本插入-2
-- [ ] 7.Vue数据绑定-文本插入-3
+- [ ] 5.Vue数据绑定-插入值-1
+- [ ] 6.Vue数据绑定-插入值-2
+- [ ] 7.Vue数据绑定-插入值-3
 - [ ] 8.
 
 ## 课堂笔记
@@ -48,21 +48,24 @@
 * 实例生命周期  
 
 ### Vue数据绑定
-* 模板的说明  
+#### 模板的说明  
    Vue.js的模板是基于DOM实现的。  
-* 插入值  
-   1. 数据绑定的最基础的形式是文本插入。 
+#### 插入值  
+   1.数据绑定的最基础的形式是文本插入。 
    ```html 
      <div id="text" class="{{ classValue }}">{{ innnerText }}</div>
    ```
-   2. 如果需要只处理单次插值，今后数据不再变化  
+   2.如果需要只处理单次插值，今后数据不再变化  
    ```html
      <div id="text" class="{{* classValue }}">{{ innnerText }}</div>
    ```
-   3. 原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。
+   3.原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。
    ```html
      <div id="text" class="{{* classValue }}">{{{ innerHTML }}}</div>
    ```
+   4.在Vue.js指令和特殊特性内不能用插值。  
+#### 绑定表达式
+
 
    
 
