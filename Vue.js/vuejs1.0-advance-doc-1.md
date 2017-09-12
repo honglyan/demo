@@ -66,13 +66,26 @@
    ```
    4.在Vue.js指令和特殊特性内不能用插值。  
 #### 绑定表达式  
-   1.JavaScript表达式。  
-   * Vue.js在数据绑定内支持全功能的JavaScript表达式。  
-   * 表达式将在所属的Vue实例的作用域内计算。每个绑定只能包含单个表达式。  
+   1.JavaScript表达式  
+   ①Vue.js在数据绑定内支持全功能的JavaScript表达式。  
+   ②表达式将在所属的Vue实例的作用域内计算。每个绑定只能包含单个表达式。 
+   ```html
+    <div id="text" class="{{* classValue }}">
+      姓名：{{ name }}<br>
+      年龄：{{ age+1 }}
+     </div>
        {{ var a =1 }} (x)  
-       {{ if(ok) {return message } }} (x)
-   2.过滤器。  
-   * Vue.js允许在表达式后添加可选的“过滤器Filter”。管道语法不是JavaScript语法，因此不能再表达式内使用过滤器，只能添加到表达式的后面。  
+       {{ if(ok) {return message } }} (x)  
+   ```
+       
+   2.过滤器。  
+   Vue.js允许在表达式后添加可选的“过滤器Filter”。管道语法不是JavaScript语法，因此不能再表达式内使用过滤器，只能添加到表达式的后面。  
+   ```html
+<div id="text" class="{{* classValue }}">
+      姓名：{{ name | uppercase }}<br> //uppercase是vue内置的过滤器
+      年龄：{{ age+1 }}
+     </div>
+   ```
    
 
        
