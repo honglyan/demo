@@ -10,7 +10,7 @@
 - [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
 - [ ] 4.Vue.js的实例
-- [ ] 5.
+- [ ] 5.Vue数据绑定-文本插入
 - [ ] 6.
 - [ ] 7.
 - [ ] 8.
@@ -41,9 +41,20 @@
 
 ### Vue.js的实例  
 * 构造器  
-  * 每个Vue.js应用的起步都是通过构造函数Vue创建个Vue的根实例.var app = new Vue({ //实例 })
-* 属性与方法   
-* 实例生命周期
+  * 每个Vue.js应用的起步都是通过构造函数Vue创建个Vue的根实例.var app = new Vue({ //实例 })  
+  * 在实例化Vue时，需要传入一个选项对象，它可以包含数据、模型、挂载元素、方法、生命周期钩子等选项。  
+* 属性与方法  
+  * 被代理的属性是响应的。   
+* 实例生命周期  
+
+### Vue数据绑定
+* 模板的说明  
+   Vue.js的模板是基于DOM实现的。  
+* 插入值  
+   数据绑定的最基础的形式是文本插入。 {{ msg }} 
+   如果需要只处理单次插值，今后数据不再变化 {{ * msg }}
+
+
 
 
   
