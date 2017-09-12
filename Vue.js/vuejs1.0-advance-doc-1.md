@@ -51,15 +51,15 @@
 * 模板的说明  
    Vue.js的模板是基于DOM实现的。  
 * 插入值  
-   * 数据绑定的最基础的形式是文本插入。 
+   1. 数据绑定的最基础的形式是文本插入。 
    ```html 
      <div id="text" class="{{ classValue }}">{{ innnerText }}</div>
    ```
-   * 如果需要只处理单次插值，今后数据不再变化  
+   2. 如果需要只处理单次插值，今后数据不再变化  
    ```html
      <div id="text" class="{{* classValue }}">{{ innnerText }}</div>
-   ```  
-   * 原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。
+   ```
+   3. 原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。
    ```html
      <div id="text" class="{{* classValue }}">{{{ innerHTML }}}</div>
    ```
