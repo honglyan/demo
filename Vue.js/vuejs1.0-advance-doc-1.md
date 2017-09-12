@@ -1,6 +1,6 @@
 ## 笔记列表
-* [某学院Vue.js课程(1-8)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md)  
-* [某学院Vue.js课程(9-16)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md)  
+* [某学院Vue.js课程(1-9)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md)  
+* [某学院Vue.js课程(10-16)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md)  
 * [某学院Vue.js课程(17-24)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md)
 * [某学院Vue.js课程(25-32)](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md)
 
@@ -13,8 +13,8 @@
 - [x] [5.Vue数据绑定-插入值-1](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
 - [x] [6.Vue数据绑定-插入值-2](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
 - [x] [7.Vue数据绑定-插入值-3](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
-- [x] [8.绑定表达式-Javascript]()
-- [ ] [9.绑定表达式-过滤器]()
+- [x] [8.绑定表达式-Javascript](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
+- [x] [9.绑定表达式-过滤器](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
 
 ## 课堂笔记
 ### Vue.js简介
@@ -79,14 +79,17 @@
    ```
        
    2.过滤器。  
-   Vue.js允许在表达式后添加可选的“过滤器Filter”。管道语法不是JavaScript语法，因此不能再表达式内使用过滤器，只能添加到表达式的后面。  
+   ①Vue.js允许在表达式后添加可选的“过滤器Filter”。管道语法不是JavaScript语法，因此不能再表达式内使用过滤器，只能添加到表达式的后面。  
    ```html
 <div id="text" class="{{* classValue }}">
       姓名：{{ name | uppercase }}<br> //uppercase是vue内置的过滤器
       年龄：{{ age+1 }}
      </div>
-   ```
+   ```  
+   ②过滤器可以串联。  {{ massage | filterA | filterB }}  
+   ③过滤器也可以接收参数。 {{ message | filterA'arg1' arg2 }}  
    
+
 
        
        
