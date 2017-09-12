@@ -9,11 +9,11 @@
 - [x] [1.Vue.js简介](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vuejs简介)
 - [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
-- [ ] 4.Vue.js的实例
-- [ ] 5.Vue数据绑定-插入值-1
-- [ ] 6.Vue数据绑定-插入值-2
-- [ ] 7.Vue数据绑定-插入值-3
-- [ ] 8.
+- [x] [4.Vue.js的实例](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vuejs的实例-)
+- [x] [5.Vue数据绑定-插入值-1](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
+- [x] [6.Vue数据绑定-插入值-2](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
+- [x] [7.Vue数据绑定-插入值-3](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
+- [x] [8.绑定表达式-1]()
 
 ## 课堂笔记
 ### Vue.js简介
@@ -64,7 +64,14 @@
      <div id="text" class="{{* classValue }}">{{{ innerHTML }}}</div>
    ```
    4.在Vue.js指令和特殊特性内不能用插值。  
-#### 绑定表达式
+#### 绑定表达式  
+   1.JavaScript表达式。  
+     1) Vue.js在数据绑定内支持全功能的JavaScript表达式。
+     2）表达式将在所属的Vue实例的作用域内计算。每个绑定只能包含单个表达式。  
+       {{ var a =1 }} (x)  
+       {{ if(ok) {return message } }} (x)
+       
+        
 
 
    
