@@ -9,7 +9,7 @@
 - [x] [1.Vue.js简介](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vuejs简介)
 - [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
-- [ ] 4.
+- [ ] 4.Vue.js的实例
 - [ ] 5.
 - [ ] 6.
 - [ ] 7.
@@ -37,7 +37,13 @@
 ### 组件系统  
 * 让我们用独立可复用的小组件来构建大型应用。  
 * 组件树 
-* 两大模块：组件系统和响应的数据绑定。
+* 两大模块：组件系统和响应的数据绑定。  
+
+### Vue.js的实例  
+* 构造器  
+  * 每个Vue.js应用的起步都是通过构造函数Vue创建个Vue的根实例.var app = new Vue({ //实例 })
+* 属性与方法   
+* 实例生命周期
 
 
   
