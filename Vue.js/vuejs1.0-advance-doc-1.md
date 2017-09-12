@@ -10,9 +10,9 @@
 - [x] [2.Vue概述](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#vue概述-)
 - [x] [3.组件系统](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#组件系统-)
 - [ ] 4.Vue.js的实例
-- [ ] 5.Vue数据绑定-文本插入
-- [ ] 6.
-- [ ] 7.
+- [ ] 5.Vue数据绑定-文本插入-1
+- [ ] 6.Vue数据绑定-文本插入-2
+- [ ] 7.Vue数据绑定-文本插入-3
 - [ ] 8.
 
 ## 课堂笔记
@@ -59,8 +59,8 @@
    ```html
      <div id="text" class="{{* classValue }}">{{ innnerText }}</div>
    ```  
-   * 原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。  
-   ```html
+   * 原始的html：内容以HTML字符串插入时，数据绑定将被忽略。如果需要复用模板片段，应该使用partials。
+   ```html
      <div id="text" class="{{* classValue }}">{{{ innerHTML }}}</div>
    ```
 
