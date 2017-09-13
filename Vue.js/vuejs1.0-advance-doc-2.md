@@ -12,7 +12,7 @@
 - [x] [13.Vue数据绑定-缩写](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#缩写)
 - [x] [14.Vue计算属性-基础例子]()
 - [ ] [15.Vue计算属性-计算属性]()
-- [ ] [16. ](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#缩写)
+- [ ] [16.Vue计算属性-计算setter]()
 
 ## 课程笔记  
 ### 指令
@@ -117,16 +117,50 @@
         }
       });
   };
-
-
-
   </script>
 </head>
 <body>
   <div id="demo">
     {{ fullName }}
   </div>
+</body>
+```
 
+#### 计算setter：计算属性默认只是getter，不过在需要时也可以提供一个setter。
+```html
+<script type="text/javascript">
+  window.onload = function(){
+    var vm = new Vue({
+        el : '#demo',
+        data : {
+          firstName : 'Foo',
+          lastName : 'Bar'
+        },
+        computed:{
+          fullName: {
+            //getter
+            get: function(){
+              return this.firstName+ ' ' +this.lastName;
+            },
+            //setter
+            set:function(newValue){
+              var names = newValue.split(' ');
+              this.firstName = names[0];
+              this.lastName = names[names.length-1];
+            }
+          }
+        }
+      });
+      setTimeout(function(){
+        vm.fullName = 'Edogawa Conan';
+      },5000);
+  };
+  </script>
+</head>
+<body>
+  <div id="demo">
+    {{ fullName }}
+  </div>
 </body>
 ```
 
