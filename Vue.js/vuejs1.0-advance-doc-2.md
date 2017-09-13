@@ -18,8 +18,8 @@
 ## 课程笔记  
 ### 指令
 ##### 1.指令：是特殊的带有前缀v-的特性。
-   ```html
-      <div id="test">
+```html
+<div id="test">
     请选择展示形式：
     <input type="radio" id="one" value="true" v-model="display" name="sel">
     <label for="one">显示</label> &nbsp; &nbsp;
@@ -28,5 +28,5 @@
     <div id="text" class="{{ classValue }}" v-if="display">{{ innnerText }}</div>
   </div>
         //display是字符串，只要有值就为真，如果没有值才为假。
-   ```
-   ##### 2.参数：有些指令可以在其名称后面带一个“参数”，中间放一个冒号隔开。
+```
+##### 2.参数：有些指令可以在其名称后面带一个“参数”，中间放一个冒号隔开。
