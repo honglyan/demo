@@ -10,9 +10,9 @@
 - [x] [11.Vue数据绑定-指令-参数](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
 - [x] [12.Vue数据绑定-指令-修饰符](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
 - [x] [13.Vue数据绑定-缩写](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#缩写)
-- [x] [14.Vue计算属性-基础例子]()
-- [ ] [15.Vue计算属性-计算属性]()
-- [ ] [16.Vue计算属性-计算setter]()
+- [x] [14.Vue计算属性-基础例子](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#基础例子在这里我们声明一个计算属性b我们提供的函数将用作属性vmb的getter像绑定普通属性一样在模板中绑定计算属性)
+- [x] [15.Vue计算属性-计算属性](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#计算属性-vs-watch用于观察vue实例上的数据变动)
+- [x] [16.Vue计算属性-计算setter](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#计算setter计算属性默认只是getter不过在需要时也可以提供一个setter)
 
 ## 课程笔记  
 ### 指令
