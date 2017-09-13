@@ -6,13 +6,13 @@
 
 
 ## 课程任务
-- [x] [10.指令-概念](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
-- [x] [11.指令-参数](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
-- [x] [12.指令-修饰符](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
-- [ ] [13.缩写]()
-- [ ] [14.]()
-- [ ] [15.]()
-- [ ] [16. ]()
+- [x] [10.Vue数据绑定-指令-概念](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
+- [x] [11.Vue数据绑定-指令-参数](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
+- [x] [12.Vue数据绑定-指令-修饰符](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#指令)
+- [x] [13.Vue数据绑定-缩写](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#缩写)
+- [x] [14.Vue计算属性-基础例子]()
+- [ ] [15.Vue计算属性-计算属性]()
+- [ ] [16. ](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md#缩写)
 
 ## 课程笔记  
 ### 指令
@@ -53,4 +53,81 @@
 //缩写
 <a @click="doSomething"></a>
 ```
+
+### Vue计算属性(适用于多于一个表达式的逻辑)
+#### 基础例子:在这里我们声明一个计算属性b，我们提供的函数将用作属性vm.b的getter，像绑定普通属性一样在模板中绑定计算属性。
+```html
+  <script type="text/javascript">
+  window.onload = function(){
+    var vm = new Vue({
+      el : '#example',
+      data : {
+        a : 1
+      },
+      computed:{
+        b: function(){
+          return this.a+1;
+        }
+      }
+    });
+    setTimeout(function(){
+      vm.a = 2;
+    },5000);
+
+  };
+
+  </script>
+</head>
+<body>
+  <div id="example">
+    a={{ a }},b={{ b }}
+  </div>
+</body>
+```
+#### 计算属性 vs $watch(用于观察Vue实例上的数据变动)
+```html
+  <script type="text/javascript">
+  window.onload = function(){
+  //   //$ watch 方法
+  //   var vm = new Vue({
+  //     el : '#demo',
+  //     data : {
+  //       firstName : 'Foo',
+  //       lastName : 'Bar',
+  //       fullName : 'Foo Bar'
+  //     }
+  //   });
+  //  vm.$watch('firstName',function(val){
+  //    this.fullName = val + ' ' + this.lastName;
+  //  });
+  //  vm.$watch('lastName',function(val){
+  //    this.fullName = this.lastName + ' ' + val;
+  //  });
+    // 计算属性
+    var vm = new Vue({
+        el : '#demo',
+        data : {
+          firstName : 'Foo',
+          lastName : 'Bar'
+        },
+        computed:{
+          fullName: function(){
+            return this.firstName+ ' ' +this.lastName;
+          }
+        }
+      });
+  };
+
+
+
+  </script>
+</head>
+<body>
+  <div id="demo">
+    {{ fullName }}
+  </div>
+
+</body>
+```
+
 
