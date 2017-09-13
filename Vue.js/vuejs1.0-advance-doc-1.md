@@ -13,8 +13,8 @@
 - [x] [5.Vue数据绑定-插入值-1](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
 - [x] [6.Vue数据绑定-插入值-2](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
 - [x] [7.Vue数据绑定-插入值-3](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#插入值)
-- [x] [8.绑定表达式-Javascript](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
-- [x] [9.绑定表达式-过滤器](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
+- [x] [8.Vue数据绑定-绑定表达式-Javascript](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
+- [x] [9.Vue数据绑定-绑定表达式-过滤器](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md#绑定表达式)
 
 ## 课堂笔记
 ### Vue.js简介
