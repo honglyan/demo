@@ -1,7 +1,7 @@
 ## 学习列表 
 ## 本周学习任务
 - [x] [某学院Vue.js课程（1-9）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-1.md)
-- [ ] [某学院Vue.js课程（10-16）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md)
+- [x] [某学院Vue.js课程（10-16）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-2.md)
 - [ ] [某学院Vue.js课程（17-24）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md)
 - [ ] [某学院Vue.js课程（25-32）](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md)
 ## 本月学习任务
