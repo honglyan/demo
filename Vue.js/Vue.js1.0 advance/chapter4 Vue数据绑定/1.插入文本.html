@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue.JS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.bootcss.com/vue/1.0.19/vue.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <div id="test">
+    请选择展示形式：
+    <input type="radio" id="one" value="red" v-model="classValue" name="sel">
+    <label for="one">红色</label> &nbsp; &nbsp;
+    <input type="radio" id="two" value="blue" v-model="classValue" name="sel">
+    <label for="two">蓝色</label>
+    <div id="text" class="{{ classValue }}">{{ innerText }}</div>
+  </div>
+
+</body>
+</html>
