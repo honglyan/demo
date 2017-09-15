@@ -7,7 +7,7 @@
 
 ## 课程任务
 - [x] 26.Vue列表渲染-v-for
-- [ ] 27.Vue列表渲染-template
+- [x] 27.Vue列表渲染-template
 - [ ] 28.Vue列表渲染-数组变动检测
 - [ ] 29.Vue列表渲染-对象v-for
 - [ ] 30.Vue列表渲染-值域v-for
@@ -55,5 +55,14 @@ var dataList = {
       <h6>no：{{ $index }}</h6>
       <h4>brief: {{ text }}</h4>
     </template>
-  ```
+  ```  
+  #### 数组变动检测  
+  ##### 1.变异方法  
+  1. push()/pop():增加一个元素/删除一个元素.  
+  2. shift()/unshift():控制数组元素。  
+  3. splice():根据下标指定删除某个元素。  
+  4. sort()/reverse:排序/反向排序。  
+  ##### 2.替换数组:不会修改数组而是返回一个新数组的非变异方法，直接用新数组替换旧数组。  
+  
+    track-by track-by $index 问题
 
