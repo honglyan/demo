@@ -155,8 +155,8 @@
   ```  
   ##### 数组语法  
   1.V-bind：style的数组语法可以将多个样式对象应用在一个元素上。  
-  ```html
+  ```html
   <div v-bind:style="[styleObjectA,styleObjectB]">
   ```  
-  ##### 自动添加前缀  
+  ##### 自动添加前缀  
   Vue.js会自动侦测并添加相应前缀。
