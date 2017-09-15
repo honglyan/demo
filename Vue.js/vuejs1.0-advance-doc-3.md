@@ -6,10 +6,10 @@
 
 
 ## 课程任务
-- [x] 17.Vue.js类与样式绑定-绑定 HTML Class-对象语法
-- [x] 18.Vue.js类与样式绑定-绑定 HTML Class-数组语法
-- [ ] 19.Vue.js类与样式绑定-绑定内联样式style-对象语法
-- [ ] 20.Vue.js类与样式绑定-绑定内联样式style-数组语法
+- [x] [17.Vue.js类与样式绑定-绑定 HTML Class-对象语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#对象语法-1)
+- [x] [18.Vue.js类与样式绑定-绑定 HTML Class-数组语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#数组语法-1)
+- [x] [19.Vue.js类与样式绑定-绑定内联样式style-对象语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#对象语法-2)
+- [x] [20.Vue.js类与样式绑定-绑定内联样式style-数组语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#数组语法-2)
 - [ ] 21.
 - [ ] 22.
 - [ ] 23.
