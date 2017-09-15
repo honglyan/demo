@@ -10,11 +10,11 @@
 - [x] [18.Vue.js类与样式绑定-绑定 HTML Class-数组语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#数组语法)
 - [x] [19.Vue.js类与样式绑定-绑定内联样式style-对象语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#对象语法-1)
 - [x] [20.Vue.js类与样式绑定-绑定内联样式style-数组语法](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#数组语法-1)
-- [x] 21.Vue条件渲染v-if
-- [x] 22.Vue条件渲染template
-- [x] 23.Vue条件渲染v-show
-- [x] 24.Vue条件渲染v-else
-- [x] 25.Vue条件渲染v-if vs v-show
+- [x] [21.Vue条件渲染v-if](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#v-if控制元素有还是没有)
+- [x] [22.Vue条件渲染template](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#template-v-if)
+- [x] [23.Vue条件渲染v-show](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#v-show)
+- [x] [24.Vue条件渲染v-else](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#v-else)
+- [x] [25.Vue条件渲染v-if vs v-show](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-3.md#v-if-vs-v-show)
 
 ## 课程笔记
 ### Vue.js类与样式绑定
