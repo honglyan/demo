@@ -6,12 +6,12 @@
 
 
 ## 课程任务
-- [x] 26.Vue列表渲染-v-for
-- [x] 27.Vue列表渲染-template
-- [ ] 28.Vue列表渲染-数组变动检测
-- [ ] 29.Vue列表渲染-对象v-for
-- [ ] 30.Vue列表渲染-值域v-for
-- [ ] 31.Vue列表渲染-显示过滤/排序的结果
+- [x] [26.Vue列表渲染-v-for](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#v-for-)
+- [x] [27.Vue列表渲染-template](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#template-v-for-)
+- [x] [28.Vue列表渲染-数组变动检测](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#数组变动检测)
+- [x] [29.Vue列表渲染-对象v-for](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#对象v-for--indexkey)
+- [x] [30.Vue列表渲染-值域v-for](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#值域v-for)
+- [x] [31.Vue列表渲染-显示过滤/排序的结果](https://github.com/honglyan/demo/blob/master/Vue.js/vuejs1.0-advance-doc-4.md#显示过滤排序的结果)
 
 ## 课程笔记  
 ### Vue列表渲染
