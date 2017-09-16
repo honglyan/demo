@@ -63,7 +63,58 @@ var dataList = {
   3. splice():根据下标指定删除某个元素。  
   4. sort()/reverse:排序/反向排序。  
   ##### 2.替换数组:不会修改数组而是返回一个新数组的非变异方法，直接用新数组替换旧数组。  
+  1.filter():过滤数组。  
+  ```html
+  demo.items = example.items.filter(function(item){
+    return item.message.match(/Foo/);  //js的数学运算
+  });
+  ```  
+  2.concat:拼接数组。  
+  3.slice:数组操作。  
+  ##### 3.track-by：用全新的对象替换数组。  
+  ```html
+  <div v-for="item in items" track-by="_uid">
+      <!-- content -->
+  </div>
+  ```  
+  ##### 4.track-by $index  
+  1.使用track-by="$index"强制让v-for进入原位更新模式。  
+  2.片短不会被移动，而是简单地以对应索引的新值刷新。  
+  3.DOM节点不再映射数组元素顺序的改变，不能同步临时状态以及组件的私有状态。  
+  ##### 5.问题。  
+  因为JavaScript的限制，vue.js不能检测到下面数组的变化：  
+  ①直接用索引设置元素，如vm.item[0] ={};  
+  解决方法：Vue扩展了观察数组，为他添加了一个$set方法：  
+  ```html
+  demo.items.$set(0,{chidMsg:'changed!'})
+  ```
+  ②修改数据的长度，如vm.items.length = 0;  
+  解决办法：需要一个空数组替换items。  
+  除了$set()，vue.js还未观察数组添加了splice()方法，通过下标删除元素。  
+  ```html
+  this.items.$remove(item);
+  ```  
+  #### 对象v-for  ($index,$key)  
+  ```html
+  var dataList = {
+      innerText :{
+        Firstname : 'hong',
+        Lastname : 'lyan',
+        Sex : 'girl',
+        Age :20
+      }
+    }
+  <span v-for="value in innerText">{{$key}}-{{ value }}<br></span>
+  ```  
+  #### 值域v-for  
+  v-for也可以接收一个整数，此时它将重复模板数次。  
+  ```html
+  <span v-for="number in 10">{{ number }}<br></span>
+  ```  
+  #### 显示过滤/排序的结果  
+  想要显示过滤/排序过的数组，同时不实际修改或重置原始数据，有两个办法:  
+  1.创建一个计算属性，返回过滤/排序过的数组；  
+  2.使用内置的过滤器filterBy和orderBy。  
+  计算属性有更好的控制力，也更灵活，因为它是全功能JavaScript.但是统统过滤器更方便。  
   
-  
-    track-by track-by $index 问题
 
