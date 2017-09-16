@@ -115,6 +115,9 @@ var dataList = {
   想要显示过滤/排序过的数组，同时不实际修改或重置原始数据，有两个办法:  
   1.创建一个计算属性，返回过滤/排序过的数组；  
   2.使用内置的过滤器filterBy和orderBy。  
+  ```html
+  <div v-for="item in items | filterBy 'hello'">
+  ```
   计算属性有更好的控制力，也更灵活，因为它是全功能JavaScript.但是统统过滤器更方便。  
   
 
