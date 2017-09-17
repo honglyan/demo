@@ -1,6 +1,6 @@
 ## 课程目录 
 - [x] [1.课程简介](https://github.com/honglyan/demo/blob/master/Vue.js/Vue.js2.0-1.md)
-- [ ] 2. Vue简介
+- [x] [2. Vue简介]()
 - [ ] 3.功能接口（1）
 - [ ] 4.功能接口（2）
 - [ ] 5.环境搭建和常用插件
@@ -54,4 +54,35 @@ var MyHeaderChild = {
       'my-header':MyHeader
     }
   });
+```
+注意：组件里面的data最好采用：
+
+```js
+data: function(){
+      message : 'honglyan'
+    }
+```
+避免直接用data：{}。
+
+### vue基本概念  
+#### 全局api/Global API  
+例：Vue.delete/Vue.filter/Vue.component/Vue.use/Vue.extend
+#### 实例选项  
+在创建Vue实例的时候可以选择的一些对象或者方法。
+例：el/data/template/component/render
+#### 实例属性/方法  Instance Properties
+$on:绑定一个方法去执行。
+```js
+vm.$on('emit',function(){})
+vm.$data
+vm.$refs
+vm.$childrens
+```
+#### 指令 Directive
+是写在模板里面，通过模板与组件的数据进行交互的重要的一个方法。  
+例：v-html/v-on:keydown.enter
+v-on：将一个事件绑定到元素上。
+
+#### 内置组件 Built-in Component 
+不需要声明组件componet/keep alive。
 ```
