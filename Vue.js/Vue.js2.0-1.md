@@ -29,3 +29,10 @@
 ## 课程笔记  
 三大功能：1.模板渲染 2.模块化 3.扩展功能（路由，Ajax）
 
+## 学习资源  
+Vue.js中文官网-http://cn.vuejs.org/  
+Vuejs源码-https://github.com/vuejs/vue  
+Vuejs官方工具-https:github.com/vuejs  
+Vuejs官方论坛-http://forum.vuejs.org/  
+
+
